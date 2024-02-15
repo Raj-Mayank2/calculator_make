@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Polynomial Calculator</title>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Polynomial Calculator</h1>
+    </header>
+
+    <section class="calculator">
+        <label for="poly1">Enter Polynomial 1:</label>
+        <input type="text" id="poly1" placeholder="e.g., x^2 + 2x + 1">
+
+        <label for="poly2">Enter Polynomial 2:</label>
+        <input type="text" id="poly2" placeholder="e.g., 2x^2 + 3x - 1">
+
+        <button onclick="calculate()">Calculate</button>
+        <p class="mayank">Created by Mayank Raj</p>
+        <div id="result"></div>
+    </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

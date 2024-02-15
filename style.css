@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #BFD8AF;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    
+    margin: 50px auto;
+    background-color: #B19470;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.calculator label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.calculator input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.calculator button {
+    padding: 10px 20px;
+    background-color: #0D9276;
+    color: #fff;
+    font-size:20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.mayank{
+    font-size: large;
+    font-weight:bold;
+    text-align:right;
+    
+}
